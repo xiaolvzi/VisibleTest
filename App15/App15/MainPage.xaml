@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:App15"
+             x:Class="App15.MainPage">
+
+    <StackLayout>
+
+        <Entry x:Name="Poll1" Placeholder="Option 1" IsVisible="False"/>
+        <Entry x:Name="Poll2" Placeholder="Option 2" IsVisible="True"/>
+        <Entry x:Name="Poll3" Placeholder="Option 3" IsVisible="True"/>
+        <Button x:Name="bt"/>
+    </StackLayout>
+
+</ContentPage>

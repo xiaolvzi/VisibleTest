@@ -91,6 +91,7 @@ C:\VS_WorkSpace\App15\App15\App15.Android\obj\Debug\android\assets\System.Web.Se
 C:\VS_WorkSpace\App15\App15\App15.Android\obj\Debug\android\assets\System.Xml.Linq.pdb
 C:\VS_WorkSpace\App15\App15\App15.Android\obj\Debug\android\assets\System.Xml.pdb
 C:\VS_WorkSpace\App15\App15\App15.Android\bin\Debug\App15.Android.dll
+C:\VS_WorkSpace\App15\App15\App15.Android\obj\Debug\linksrc\App15.pdb
 C:\VS_WorkSpace\App15\App15\App15.Android\obj\Debug\linksrc\App15.Android.dll.mdb
 C:\VS_WorkSpace\App15\App15\App15.Android\obj\Debug\linksrc\FormsViewGroup.dll.mdb
 C:\VS_WorkSpace\App15\App15\App15.Android\obj\Debug\linksrc\Xamarin.Forms.Core.dll.mdb

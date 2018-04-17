@@ -6,10 +6,10 @@
 
     <StackLayout>
 
-        <Entry x:Name="Poll1" Placeholder="Option 1" IsVisible="False"/>
-        <Entry x:Name="Poll2" Placeholder="Option 2" IsVisible="True"/>
-        <Entry x:Name="Poll3" Placeholder="Option 3" IsVisible="True"/>
-        <Button x:Name="bt"/>
+        <Entry x:Name="Poll1" Placeholder="Option 1" IsVisible="True"/>
+        <Entry x:Name="Poll2" Placeholder="Option 2" IsVisible="False"/>
+        <Entry x:Name="Poll3" Placeholder="Option 3" IsVisible="False"/>
+        <Button x:Name="bt" Text="+"/>
     </StackLayout>
 
 </ContentPage>

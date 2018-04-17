@@ -9,6 +9,7 @@ namespace App15
 {
 	public partial class MainPage : ContentPage
 	{
+        int num=1;
 		public MainPage()
 		{
 			InitializeComponent();
@@ -17,12 +18,26 @@ namespace App15
 
         private void Bt_Clicked(object sender, EventArgs e)
         {
-            if (!Poll1.IsVisible)
+            if (num == 1)
             {
-                Poll1.IsVisible = true;
-                Poll1.Focus();
-                return;
+                if (!Poll2.IsVisible)
+                {
+                    Poll2.IsVisible = true;
+                    //Poll1.Focus();
+                    num = 2;
+                    return;
+                }
             }
+            else {
+
+                if (!Poll3.IsVisible)
+                {
+                    Poll3.IsVisible = true;
+                    //Poll1.Focus();
+                    return;
+                }
+            }
+
         }
     }
 }
